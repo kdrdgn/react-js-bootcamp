@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react"
+import React from "react"
+import { Link } from "react-router-dom";
 import useFetch from "./useFetch";
 
 const Todo = () => {
@@ -20,6 +21,8 @@ const Todo = () => {
             {todos && todos.map((todo:any, index: number) => {
                 return <p key={index}>{todo.title}</p>
             })}
+            <hr />
+            <Link to="/">👈 Go back</Link>
         </div>
     )
 }

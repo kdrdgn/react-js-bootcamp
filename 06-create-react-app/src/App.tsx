@@ -3,7 +3,7 @@ import './App.css';
 import CounterUseEffect from './01-basic-hooks/CounterUseEffect';
 import SwitchButton from './02-advance-hooks/SwitchButton';
 import { ThemeContext } from './02-advance-hooks/ThemeContext';
-import Todo from './03-custom-hooks/Todo';
+import Todo from './02-custom-hooks/Todo';
 import { Link } from 'react-router-dom';
 
 function App() {

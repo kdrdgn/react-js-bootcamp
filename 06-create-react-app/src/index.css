@@ -12,23 +12,37 @@ code {
     monospace;
 }
 
+
 .bg-dark {
-  background-color: black;
+  background-color: #333;
   color: #FFF;
+}
+
+.bg-dark a{
+  color: rgb(238, 158, 158);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .bg-light {
   background-color: #FFF;
-  color: #000;
+  color: #333;
 }
 
-
-.btn-dark {
-  background-color: black;
-  color: #FFF;
+.MyTinyWeb {
+  width: 256px;
+  min-height: 256px;
+  border: 1px solid #333;
+  margin: 0 auto;
+  margin-top: 256px;
+  padding: 16px;
 }
 
-.btn-light {
-  background-color: FFF;
-  color: #000;
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  list-style: none;
 }

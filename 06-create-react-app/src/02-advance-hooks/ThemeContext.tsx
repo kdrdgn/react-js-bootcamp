@@ -12,7 +12,7 @@ export const ThemeContext = createContext<IThemeContext>({
 
 
 const initialState = {
-    darkMode: false
+    darkMode: true
 }
 
 const themeReducer = (state: any, action: any) => {
